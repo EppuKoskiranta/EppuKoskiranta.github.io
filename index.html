@@ -42,7 +42,7 @@ main{display:grid;grid-template-columns:1fr 340px;gap:28px}
 
 
 /* Projects column */
-.projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:16px}
 .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 6px 20px rgba(2,6,23,0.6)}
 .card h3{margin:0 0 8px 0;font-size:16px}
 .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
@@ -90,13 +90,23 @@ aside{order:2}
 <div class="projects" id="projects">
 <!-- Example project cards -->
 <article class="card">
-<h3>Project Alpha</h3>
-<p class="muted">A short description of Project Alpha. Built with HTML, CSS and some clever JS.</p>
-<div class="tags"><span class="tag">Web</span><span class="tag">UI</span><span class="tag">Demo</span></div>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
-</article>
+    <h3>Finnish Game Jam 2024</h3>
+    <p class="muted">Video game project from Weekend long game jam. Created by Me and Kaapo Moilanen</p>
+  
+    <div class="video">
+      <iframe
+        src="https://www.youtube.com/watch?v=5lISr1OjhjQ"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+  
+    <div class="tags">
+      <span class="tag">Web</span>
+      <span class="tag">UI</span>
+      <span class="tag">Demo</span>
+    </div>
+  </article>
 
 
 </html>
